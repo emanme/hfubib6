@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+        <meta name="format-detection" content="telephone=no" />
+      <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0"/>
+ 
+        <link href="css/boilerplate.css" rel="stylesheet" type="text/css"/>
+         <link href='css/forimageviewer.css' rel='stylesheet' type='text/css'/>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/> 
+        <link href="css/fluid-grid.css" rel="stylesheet" type="text/css"/>
+        <link href="css/iphone4orless.css" rel="stylesheet" type="text/css"/>
+        <link href="css/iphone5orlater.css" rel="stylesheet" type="text/css"/>
+        <link href="css/ipad.css" rel="stylesheet" type="text/css"/>
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+        
+        <link href="css/jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/jquery.mobile-1.4.1.min.js" type="text/javascript"></script>
+        
+        <script src="js/custom.js" type="text/javascript"></script>
+         
+         
+         <script src="js/search_f_d.js" type="text/javascript"></script>
+         <script src="js/search_f_f.js" type="text/javascript"></script>
+         <script src="js/search_f_s.js" type="text/javascript"></script>
+         
+          <script src="js/search_s_d.js" type="text/javascript"></script>
+         <script src="js/search_s_f.js" type="text/javascript"></script>
+         <script src="js/search_s_s.js" type="text/javascript"></script>
+         
+         <script src="js/search_t_d.js" type="text/javascript"></script>
+         <script src="js/search_t_f.js" type="text/javascript"></script>
+         <script src="js/search_t_s.js" type="text/javascript"></script>
+         
+        <script src="js/hammer.js"></script>
+        <script src="js/jquery.hammer.js"></script>
+        <script src="js/myLogic.js"></script>
+    
+ 
+        
+         
+        <title>HFU Bib</title>
+        <script>
+    var txt='';
+        document.addEventListener("deviceready", onDeviceReady, false);
+
+// PhoneGap is loaded and it is now safe to make calls PhoneGap methods
+//
+function onDeviceReady() {
+
+
+ 
+   if(checkConnection()){
+   // alert('you are ONline');
+    }
+    else{
+      //    alert('you are Offline');
+    }
+    $(document).addEventListener("touchmove", function (e) {
+        
+    e.preventDefault(); 
+}, false);
+ $(document).addEventListener("touchMove" ,onTouchMoveScrollable);
+
+
+}
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+ 
+        </script>
+     
+
+    </head>
+    <body onload="" style="background-color:#fff ;">
+ 
+    
+    <!-- ########################################################  Tour  -->
+<div data-role="page" id="imageviewer_f"  style="direction:rtl;background-color: #fff;">
+ 
+ <div id="menu" data-role="footer">
+         <div id="buttonContainer">
+            <div id="homeb" ontouchstart="nav2('index.html');">h</div>       
+            <div  id="backb" ontouchend="onBackKeyDown2();">b</div>
+            <div class="infob" ontouchstart="nav2('index.html#infopage');">i</div>
+            <div class="clearfix"></div>
+         </div> 
+      </div>
+      <div class="iscrollgreen" id="iscroll_f">
+     
+      </div>
+<!---->
+ 
+  
+     <div id="zoomwrapper"     >
+    <div id="zoom" class="zoomProps"   >
+        <div class="polaroid"   id="img_f"   >
+            <img src="images/s/f/a.png" alt="" id="floorp" />
+        </div>
+    </div>
+    </div>
+<!----> 
+  
+</div><!-- endof page imageviewer-->
+ 
+ 
+ 
+   
+ 
+  
+ 
+<img src="css/img/menu_bg.png" style="display:none;" /> 
+  
+  <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+            $("body").css("display", "none");
+            $("body").fadeIn(500);
+                 
+                 
+      var discription;
+     var forr= getParameterByName('for');
+     var filename=    getParameterByName('filename');
+      var file=    getParameterByName('file');
+      /*
+       alert(forr+" =for");
+              alert(filename+" =filename");
+               alert(file+" =file");
+       */
+     if(forr=='d'){
+          discription= search_f_d(file,'discription');      
+     }
+      if(forr=='f'){
+          discription= search_f_f(file,'discription');      
+     }
+      if(forr=='s'){
+          discription= search_f_s(file,'discription');      
+     }
+              
+    document.getElementById("iscroll_f").innerHTML=discription;      
+    document.getElementById("img_f").innerHTML='<img  src="'+ filename+'" alt="" id="floorp" style="width: 70%;margin-left: 100px;" /> '      
+        </script>
+ 
+    </body>
+</html>

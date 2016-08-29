@@ -1,0 +1,711 @@
+html, body
+{
+    height: 100%;
+}
+body{ margin:0px; padding: 0px;  }
+
+/*-----------------------header----------------------------*/
+  #navigationContainer a{
+     color: #000;
+     text-decoration-color: #000;
+    }
+ 
+ #navigationContainer:last-child{
+    	 margin-bottom:71px;
+	}
+    
+    a {
+        z-index: 0;
+    }
+ /*div{
+    border: solid 1px black;
+ }*/
+  
+ 
+#headerImg span{ 
+    font-family: UniversCom-67BoldCond; color:#fff; font-size:20px; 
+    float:left; position:fixed; top:0px; left:0px;
+    margin:10px auto; 
+    padding:13px 25px 25px; 
+    background-color:#80ba26; 
+    height:7px; 
+     
+    z-index: 3;
+    
+    }
+    
+    #headerImg2 span{ 
+    font-family: UniversCom-67BoldCond; color:#fff; font-size:20px; 
+    float:left; position:fixed; top:0px; left:0px;
+    margin:10px auto; 
+    padding:13px 25px 25px; 
+    background-color:#80ba26; 
+    height:7px; 
+     
+    z-index: 3;
+    
+    }
+      .standort{
+        font-family: UniversCom-67BoldCond; color:#fff; font-size:20px; 
+    float:left;  
+    margin:25px auto 0px auto; 
+    padding:13px 25px 25px; 
+    background-color:#80ba26; 
+    height:7px; 
+    
+    }
+hr { width:100%; height: 8px; background-color: #80ba26;
+    border: 0px ;
+    position:fixed; top:0px; left:0px; z-index: 3;
+    margin: 163px 0 0 0; padding: 0; }
+.clearfix{clear:both;}
+#pagebgfull{
+    background-color: #e7f0d6;
+}
+#pagebg{
+    background-color: #e7f0d6;
+      padding: 2% 0 0 0;
+   width: 98%;
+}
+/*---------------------------------end of header--------------------------*/
+
+
+/*----------------------------------- body styling-----------------------------------------*/
+#page-body{
+    
+    width:99.5%; 
+      
+    margin:185px 10px 0px 0px; 
+    padding:0px;
+    color: black;
+  
+    }
+
+/* typography */
+
+.uc{
+    font-family:'UniversLTW02-57Condensed',san-serif;
+ }
+.ucb{
+    font-family: 'UniversLTW02-67BoldCn',san-serif;
+ }
+/*font color */
+ 
+/*font-size */
+ 
+/* circle  */
+
+.bgCircle {
+    width: 62px;
+    height: 0;
+    padding-bottom: 62px;
+    border-radius: 50%;
+    
+    overflow: hidden;
+     background: #80bb27; 
+        }
+        .circleContainer{
+            width: 70px;float: left; z-index: 0;
+          
+        }
+        .navText{
+            float: left;
+            margin: 20px 0 0 5px;
+             font-size: 18px;
+        }
+        .nav2line{
+              margin: 10px 0 0 5px;
+        }
+.iconSize {
+     display: block;
+    width: 80%;
+    padding: 17%;
+    height: auto;
+    margin: auto;
+    font-family:icons ;
+    color:white;
+    
+    
+    z-index: 0; 
+}
+.iconSize5 {
+    
+     display: block;
+    width: 80%;
+    padding: 17%;
+    height: auto;
+    margin: auto;
+    font-family:icons5 ;
+    color:white;
+    
+    
+    z-index: 0; 
+}
+.iconSize2 {
+    display: block;
+    width: 80%;
+    padding: 17%;
+    height: auto;
+    margin: auto;
+    font-family:icons2 ;
+    color:white;
+    z-index: 0;
+    
+}
+.iconSize4 {
+   display: block;
+    width: 80%;
+    padding: 17%;
+    height: auto;
+    margin: auto;
+    font-family:icons4 ;
+    color:white;
+    z-index: 0;
+   
+}
+
+.iconSize6 {
+ display: block;
+    width: 80%;
+    padding: 17%;
+    height: auto;
+    margin: auto;
+    font-family:icons6 ;
+    color:white;
+    z-index: 0;
+   
+}
+.iconSize7 {
+    display: block;
+    width: 80%;
+    padding: 17%;
+    height: auto;
+    margin: auto;
+    font-family:icons7 ;
+    color:white;
+    z-index: 0;
+   
+}
+.iconSize8 {
+    display: block;
+    width: 80%;
+    padding: 17%;
+    height: auto;
+    margin: auto;
+    font-family:icons8 ;
+    color:white;
+    z-index: 0;
+   
+}
+.iconList{
+      margin-bottom:31px;  z-index: 0;
+}
+.brder{
+    border: solid black 1px;
+}
+.brderr{
+    border: solid red 1px;
+}
+
+
+#idC{
+    font-size:52px;
+     
+}
+#idc{
+    font-size:38px;
+    margin-top: -3px;
+     margin-left: 2px;
+}
+#idh{
+    font-size:42px;
+    margin-top: -5px;
+    margin-left: -1px;
+}
+#idH{
+    font-size:30px;
+    margin-top: 0px;
+     margin-left: 5px;  
+}
+#idy{
+    font-size:40px;
+       
+}
+#idJ{
+     font-size:35px;
+     margin-top: -3px;
+     margin-left: 4px;
+}
+#idj{
+     font-size:35px;
+     margin-top: -1px;
+     margin-left: 2.5px;
+}
+#idz{
+     font-size:35px;
+    margin-top: 0px;
+     margin-left: 5px;
+}
+#idF{
+     font-size:32px;
+     margin-top: 1px;
+     margin-left: 5px;
+}
+#idf{
+      font-size:42px;
+     margin-top: -6px;
+     margin-left: -0px;
+}
+#ida{
+      font-size:23px;
+      margin-top: 0px;
+     margin-left: 5px;
+}
+#idA{
+     font-size:42px;
+     
+ 
+}
+#idm{
+     font-size:40px;
+     margin-top: -3px;
+     margin-left: 1px;
+}
+#idE{
+  font-size:50px;  
+     margin-top: -10px;
+     margin-left: -4px;
+    z-index: 0;
+}
+#ide{
+  font-size:45px;  
+      margin-top: -6px;
+     margin-left: -1px;
+
+}
+#idq{
+   font-size:60px;  
+     margin-top: -16px;
+     margin-left: -8px;
+}
+#idw{
+     font-size:28px;
+     margin-top: 1px;
+     margin-left: 7px;
+}
+#idN{
+     font-size:43px;
+     margin-top: -5px;
+     margin-left: -2px;
+}
+#idn{
+     font-size:35px;
+      
+}
+#idL{
+    font-size:42px;
+      margin-top: -5px;
+     margin-left: -2px;
+}
+#idl{
+     font-size:35px;
+     margin-top: -1px;
+     margin-left: 3px;
+}
+
+#idK{
+     font-size:30px;
+     margin-top: 3px;
+     margin-left: 6px;
+       
+}
+#idk{
+     font-size:40px;
+        margin-top: -5px;
+     margin-left: 0px;  
+       
+}
+
+#idI{
+     font-size:40px;
+     margin-top: -6px;
+     margin-left: 0px;
+}
+#idi{
+    font-size:28px;
+      
+       
+}
+#idD{
+    font-size:30px;
+    margin-top: 0px;
+     margin-left: 6px; 
+}
+#idP{
+    font-size:50px;
+     margin-top: -10px;
+     margin-left: -6px;
+      
+}
+#idp{
+     font-size:44px; 
+     
+}
+#idt{
+     font-size:36px;
+     
+}
+#ido{
+      font-size:45px;
+      margin-top: -9px;
+     margin-left: -2px;
+}
+#idv{
+     font-size:45px;
+     margin-top: -8px;
+     margin-left: -1px;
+}
+
+#idB{
+     font-size:32px;
+      margin-top: 0px;
+     margin-left: 5px; 
+}
+#idG{
+     font-size:34px;
+       margin-top: 0px;
+     margin-left: 4px; 
+}
+#idg{
+     font-size:40px;
+     
+}#idu{
+     font-size:30px;
+      margin-top: 0px;
+     margin-left: 6px; 
+}#ids{
+     font-size:42px;
+       margin-top: -4px;
+     margin-left: 0px; 
+}
+#idx{
+     font-size:36px;
+     margin-top: 0px;
+     margin-left: 4px;  
+}
+
+#idc2{
+     font-size:47px;
+     margin-top: -5px;
+     margin-left: -2px;
+}
+#ida2{
+     font-size:62px;
+     margin-top: -13px;
+     margin-left: -8px;
+}
+#idb2{
+     font-size:28px;
+      margin-top: 5px;
+     margin-left: 7px; 
+}
+#idd2{
+     font-size:30px;
+       margin-top: 1px;
+     margin-left: 6px; 
+}
+#ide2{
+     font-size:32px;
+     margin-top: 2px;
+     margin-left: 4px;
+}
+#ida4{
+     font-size:62px;
+     margin-top: -13px;
+     margin-left: -10px;
+}
+#idm5{
+    
+     font-size:40px; 
+}
+ /**/
+#idi5{
+    font-size:42px;
+     margin-top: -4px;
+     margin-left: 0px;
+}
+#idc5{
+    font-size:42px;
+       margin-top: 0px;
+     margin-left: 0px; 
+  
+}
+#idb5{
+    font-size:42px;
+    margin-top: -2px;
+     margin-left: 0px;
+}
+#idd5{
+     font-size:42px;
+    margin-top: -2px;
+     margin-left: 0px;
+}
+#ide5{
+     font-size:32px;
+     
+}
+#idf5{
+    font-size:42px;
+      margin-top: -3px;
+     margin-left: -3px;
+}
+/*---------*/
+#idd7{
+    font-size:32px;
+     margin-top: 0px;
+     margin-left: 5px;  
+}
+#ide7{
+    font-size:32px;
+       margin-top: 0px;
+     margin-left: 5px;  
+}
+#idc7{
+    font-size:32px;
+     margin-top: 0px;
+     margin-left: 5px;
+}
+
+
+#idf7{
+    font-size:36px;
+       margin-top: -1px;
+    margin-left: 3px;
+}
+
+#idb7{
+    font-size:32px;
+     margin-top: 1px;
+    margin-left: 4px;   
+}
+#idi7{
+    font-size:32px;
+    margin-top: 2px;
+    margin-left: 5.5px;
+      
+}
+#idg7{
+    font-size:32px;
+       margin-top: 2px;
+     margin-left: 3px;
+}
+#idh7{
+    font-size:55px;
+         margin-top: -13px;
+     margin-left: -9px;
+      
+}
+
+#ida7{
+    font-size:32px;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+
+
+/*--------777-------*/
+
+#ida8{
+    font-size:28px;
+      padding-top: 7px;
+      margin:8px 0 0 12px;
+}
+#idb8{
+    font-size:27px;
+      padding-top: 7px;
+      margin:7px 0 0 9px;
+}
+#idc8{
+    font-size:27px;
+      padding-top: 7px;
+      margin:5px 0 0 5px;
+}
+#idd8{
+    font-size:22px;
+      padding-top: 8px;
+      margin:10px 0 0 2px;
+}
+#ide8{
+    font-size:32px;
+      padding-top: 5px;
+      margin:8px 0 0 8px;
+}
+#idf8{
+    font-size:28px;
+      padding-top: 7px;
+      margin:8px 0 0 5px;
+}
+#idg8{
+    font-size:28px;
+      padding-top: 7px;
+      margin:8px 0 0 5px;
+}
+#idh8{
+    font-size:32px;
+      padding-top: 7px;
+      margin:8px 0 0 -1px;
+}
+#idi8{
+    font-size:28px;
+      padding-top: 7px;
+      margin:8px 0 0 7px;
+}
+#idj8{
+    font-size:32px;
+      padding-top: 7px;
+      margin:5px 0 0 5px;
+}
+#idk8{
+    font-size:28px;
+      padding-top: 7px;
+      margin:5px 0 0 7px;
+}
+#idl8{
+    font-size:32px;
+      padding-top: 7px;
+      margin:5px 0 0 5px;
+}
+#idm8{
+    font-size:32px;
+      padding-top: 7px;
+      margin:4px 0 0 5px;
+}
+#idn8{
+    font-size:32px;
+      padding-top: 7px;
+      margin:4px 0 0 5px;
+}
+#ido8{
+    font-size:32px;
+      padding-top: 7px;
+      margin:4px 0 0 5px;
+}
+/*----------------------------end of body styling------------------------
+
+/*------------------------------------------1 css---------------------------------*/
+#page-body font{ 
+    font-family: circle; font-size:2400%; color:#80ba26;
+    margin:0px 0px 0px 40px;
+    position:relative;
+    top:0px;
+    left:0px;
+    z-index: 1; 
+    
+    }
+
+#sched-info{
+    margin:0px 0px;
+    padding:0px;
+    width:auto;
+    height:auto;
+    position:absolute;
+    top:370px;
+    left:0px;
+    z-index: 2; 
+}
+#today{
+    margin:5px 50px 0 166px;
+    width:auto;
+    float:left;
+}
+#deviation{
+    margin:3px 0 0 80px;
+     width:700px;
+    float:left;
+}
+#date{
+    width:auto;
+    margin:-100px 0 0 140px;
+} 
+
+ /*--------------------------------end of 1 css-------------------*/
+
+/*----------------------2 css-------------------------------*/
+#information{
+    margin:20px 0 0px 25px;
+    padding:0px;
+   font-size: 18px;
+}
+ 
+
+
+#navi{
+    margin:0px 0px 0px 0px;
+    padding:0px;
+    height:80px;
+    width:99%;
+}
+ 
+#navigation-list{
+    width: 450px;
+    margin:20px 0 0;
+    float:left;
+   
+}
+#furtwangen , #page-body{
+ background-color: #e7f0d6;	
+}
+ .staffImg{
+    width: 80px;
+}
+.staffImg2{
+    width: 200px;
+    margin: 0 auto 5px auto;
+}
+.staff_name{
+       font-size: 18px;
+     margin: 0 auto;
+      width: 200px;
+      text-align: center;
+}
+.staff_po{
+       font-size: 18px;
+     margin: 0 auto;
+      width: 200px;
+       text-align: center;
+}
+.staff_no{ 
+    color:#008D58;
+       font-size: 18px;
+      margin: 20px auto 0 auto;
+      width: 300px;
+}
+.staff_email{
+    color:#008D58;
+       font-size: 18px;
+      margin: 10px auto 30px auto;
+      width: 300px;
+}
+ #staffContainer{
+    margin-top: 20px;
+ }
+
+/*---------------------------------navigation styling--------------------------*/
+
+
+ 
+#navigation{
+    float:left;
+    margin:0px;
+    padding:0px;
+    height:auto;
+    width:600px;
+}
+ 
+ 
+ .virtualtour{
+     width:317px;
+     height: 600px;
+ }
+ 
+ 
