@@ -1,18 +1,10 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/cordova-plugin-network-information/www/network.js",
-        "id": "cordova-plugin-network-information.network",
+        "file": "plugins/cordova-plugin-device/www/device.js",
+        "id": "cordova-plugin-device.device",
         "clobbers": [
-            "navigator.connection",
-            "navigator.network.connection"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-network-information/www/Connection.js",
-        "id": "cordova-plugin-network-information.Connection",
-        "clobbers": [
-            "Connection"
+            "device"
         ]
     },
     {
@@ -44,11 +36,18 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "file": "plugins/cordova-plugin-network-information/www/network.js",
+        "id": "cordova-plugin-network-information.network",
         "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
+            "navigator.connection",
+            "navigator.network.connection"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-network-information/www/Connection.js",
+        "id": "cordova-plugin-network-information.Connection",
+        "clobbers": [
+            "Connection"
         ]
     }
 ];
@@ -56,10 +55,11 @@ module.exports.metadata =
 // TOP OF METADATA
 {
     "cordova-plugin-whitelist": "1.2.2",
-    "cordova-plugin-network-information": "1.2.1",
+    "cordova-plugin-crosswalk-webview": "1.8.0",
+    "cordova-plugin-device": "1.1.2",
     "cordova-plugin-globalization": "1.0.3",
     "cordova-plugin-dialogs": "1.2.1",
-    "cordova-plugin-inappbrowser": "1.4.0"
+    "cordova-plugin-network-information": "1.2.1"
 }
 // BOTTOM OF METADATA
 });
